@@ -22,12 +22,6 @@ A comprehensive fruit marketplace connecting farmers with buyers worldwide.
 - Lucide React for icons
 - Vite for build tooling
 
-### Backend
-- Node.js with Express
-- MySQL database with mysql2
-- JWT authentication
-- bcryptjs for password hashing
-- CORS for cross-origin requests
 
 ## 📦 Installation & Setup
 
@@ -140,10 +134,7 @@ npm run build
 # Deploy the 'dist' folder to Netlify
 ```
 
-### Backend (Heroku/Railway/Render)
-1. Set up environment variables on your hosting platform
-2. Configure MySQL database connection
-3. Deploy the server code
+
 
 ## 🤝 Contributing
 
@@ -152,6 +143,4 @@ npm run build
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
 
-This project is licensed under the MIT License.
