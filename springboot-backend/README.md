@@ -233,14 +233,6 @@ mvn clean package
 java -jar target/freshharvest-backend-0.0.1-SNAPSHOT.jar
 ```
 
-### Docker (Optional)
-```dockerfile
-FROM openjdk:17-jdk-slim
-COPY target/freshharvest-backend-0.0.1-SNAPSHOT.jar app.jar
-EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/app.jar"]
-```
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -248,7 +240,3 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 3. Make your changes
 4. Add tests for new functionality
 5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
